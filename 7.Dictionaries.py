@@ -14,3 +14,7 @@ print("\nUpdated dictionary:", dict)
 
 dict["Vegetable"] = "Cabbage"
 print("Updated dictionary value of vegetable is:", dict)
+print("Length of the dictionary:", len(dict))
+
+dict.pop("Fruit")
+print("Updated Dictionary after pop:", dict)
