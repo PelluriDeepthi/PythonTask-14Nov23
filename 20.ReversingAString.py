@@ -1,3 +1,4 @@
+# Write a Python class to reverse a string word by word
 class reverse:
     def reverse_words(self, s):
         sp = s.split()
